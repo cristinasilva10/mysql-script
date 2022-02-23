@@ -13,3 +13,5 @@ create table clients(
 );
 
 select * from clients;
+
+INSERT INTO `bradesco`.`clients` (`name`, `conta`, `agencia`, `saldo`) VALUES ('Cristina', '1491', '190', '2000');
